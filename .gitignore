@@ -1,3 +1,10 @@
+.DS_Store
+/dist
+
+# local env files
+.env.local
+.env.*.local
+
 # Logs
 logs
 *.log
