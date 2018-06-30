@@ -1,5 +1,6 @@
 .DS_Store
-/dist
+/dist/*.map
+/dist/*.html
 
 # local env files
 .env.local
