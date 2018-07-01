@@ -1,9 +1,9 @@
 {
   "name": "copy-to-clipboard",
   "version": "0.1.0",
-  "private": true,
   "main": "dist/copyToClipboard.umd.js",
   "module": "src/index.js",
+  "repository": "https://github.com/wangzhengbo/copy-to-clipboard.git",
   "scripts": {
     "build": "vue-cli-service build --target lib --name copyToClipboard src/index.js",
     "lint": "vue-cli-service lint",
