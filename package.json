@@ -1,9 +1,21 @@
 {
-  "name": "copy-to-clipboard",
+  "name": "copy-to-clipboard2",
   "version": "0.1.0",
   "main": "dist/copyToClipboard.umd.js",
   "module": "src/index.js",
+  "author": {
+    "name": "wangzhengbo"
+  },
   "repository": "https://github.com/wangzhengbo/copy-to-clipboard.git",
+  "bugs": {
+    "url": "https://github.com/wangzhengbo/copy-to-clipboard/issues"
+  },
+  "homepage": "https://github.com/wangzhengbo/copy-to-clipboard",
+  "keywords": [
+    "clipboard",
+    "copy"
+  ],
+  "license": "MIT",
   "scripts": {
     "build": "vue-cli-service build --target lib --name copyToClipboard src/index.js",
     "lint": "vue-cli-service lint",
