@@ -1,7 +1,7 @@
 {
   "name": "copy-to-clipboard2",
-  "version": "0.2.0",
-  "main": "dist/copyToClipboard.umd.js",
+  "version": "0.3.0",
+  "main": "dist/copyToClipboard.umd.min.js",
   "module": "src/index.js",
   "author": {
     "name": "wangzhengbo"
@@ -19,21 +19,26 @@
   "scripts": {
     "build": "vue-cli-service build --target lib --name copyToClipboard src/index.js",
     "lint": "vue-cli-service lint",
-    "test:unit": "vue-cli-service test:unit"
+    "test:unit": "vue-cli-service test:unit",
+    "ncu": "npm-check-updates",
+    "ncu:upgrade": "npm-check-updates -u"
   },
   "dependencies": {
-    "clipboard": "^2.0.1"
+    "clipboard": "~2.0.4"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.15",
-    "@vue/cli-plugin-eslint": "^3.0.0-beta.15",
-    "@vue/cli-plugin-unit-jest": "^3.0.0-beta.15",
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "@vue/eslint-config-prettier": "^3.0.0-rc.3",
-    "@vue/test-utils": "^1.0.0-beta.16",
+    "@vue/cli-plugin-babel": "~3.11.0",
+    "@vue/cli-plugin-eslint": "~3.11.0",
+    "@vue/cli-plugin-unit-jest": "~3.11.0",
+    "@vue/cli-service": "~3.11.0",
+    "@vue/eslint-config-prettier": "~5.0.0",
+    "@vue/test-utils": "~1.0.0-beta.16",
     "babel-core": "7.0.0-bridge.0",
-    "babel-jest": "^23.0.1",
-    "lint-staged": "^6.0.0"
+    "babel-jest": "~24.9.0",
+    "eslint-plugin-prettier": "~3.1.1",
+    "lint-staged": "~9.3.0",
+    "npm-check-updates": "~3.1.23",
+    "vue-template-compiler": "~2.6.10"
   },
   "browserslist": [
     "> 1%",
